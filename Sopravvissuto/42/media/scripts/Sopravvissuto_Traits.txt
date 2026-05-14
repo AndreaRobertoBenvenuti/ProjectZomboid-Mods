@@ -1,0 +1,372 @@
+module Sopravvissuto {
+
+    /* =====================================================
+       TRATTI POSITIVI
+       ===================================================== */
+
+    character_trait_definition Sopravvissuto:adrenalina
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:adrenalina,
+        Cost = 5,
+        UIName = UI_Soprav_Adrenalina,
+        UIDescription = UI_Soprav_AdrenalinaDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:gracile,
+    }
+
+    character_trait_definition Sopravvissuto:nottambulo
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:nottambulo,
+        Cost = 4,
+        UIName = UI_Soprav_Nottambulo,
+        UIDescription = UI_Soprav_NottambuloDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:diurno,
+    }
+
+    character_trait_definition Sopravvissuto:sanguefreddo
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:sanguefreddo,
+        Cost = 4,
+        UIName = UI_Soprav_SangueFreddo,
+        UIDescription = UI_Soprav_SangueFreddoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:emofobico;Sopravvissuto:propensopanico,
+    }
+
+    character_trait_definition Sopravvissuto:cuococampo
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:cuococampo,
+        Cost = 2,
+        UIName = UI_Soprav_CuocoCampo,
+        UIDescription = UI_Soprav_CuocoCampoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:ingordo,
+    }
+
+    character_trait_definition Sopravvissuto:memoriaferro
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:memoriaferro,
+        Cost = 4,
+        UIName = UI_Soprav_MemoriaFerro,
+        UIDescription = UI_Soprav_MemoriaFerroDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:ottuso,
+        XPBoosts = Woodwork=1;Mechanics=1;Electricity=1;Doctor=1,
+    }
+
+    character_trait_definition Sopravvissuto:lamanaturale
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:lamanaturale,
+        Cost = 2,
+        UIName = UI_Soprav_LamaNaturale,
+        UIDescription = UI_Soprav_LamaNaturaleDesc,
+        XPBoosts = SmallBlade=2;LongBlade=1,
+    }
+
+    character_trait_definition Sopravvissuto:terminator
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:terminator,
+        Cost = 6,
+        UIName = UI_Soprav_Terminator,
+        UIDescription = UI_Soprav_TerminatorDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:zoppo,
+    }
+
+    character_trait_definition Sopravvissuto:spartano
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:spartano,
+        Cost = 4,
+        UIName = UI_Soprav_Spartano,
+        UIDescription = UI_Soprav_SpartanoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:alcolista;Sopravvissuto:ingordo,
+    }
+
+    character_trait_definition Sopravvissuto:acrobata
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:acrobata,
+        Cost = 4,
+        UIName = UI_Soprav_Acrobata,
+        UIDescription = UI_Soprav_AcrobataDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:zoppo,
+        XPBoosts = Nimble=2;Sprinting=1,
+    }
+
+    character_trait_definition Sopravvissuto:exmilitare
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:exmilitare,
+        Cost = 5,
+        UIName = UI_Soprav_ExMilitare,
+        UIDescription = UI_Soprav_ExMilitareDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:manitremanti,
+        XPBoosts = Aiming=1;Reloading=1;Sprinting=1,
+    }
+
+    character_trait_definition Sopravvissuto:cecchinonat
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:cecchinonat,
+        Cost = 2,
+        UIName = UI_Soprav_CecchinoNat,
+        UIDescription = UI_Soprav_CecchinoNatDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:manitremanti,
+        XPBoosts = Aiming=3,
+    }
+
+    character_trait_definition Sopravvissuto:meccaniconato
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:meccaniconato,
+        Cost = 2,
+        UIName = UI_Soprav_MeccanicoNato,
+        UIDescription = UI_Soprav_MeccanicoNatoDesc,
+        XPBoosts = Mechanics=3,
+    }
+
+    character_trait_definition Sopravvissuto:cuocoprovetto
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:cuocoprovetto,
+        Cost = 2,
+        UIName = UI_Soprav_CuocoProvetto,
+        UIDescription = UI_Soprav_CuocoProvettoDesc,
+        XPBoosts = Cooking=3,
+    }
+
+    character_trait_definition Sopravvissuto:predatore
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:predatore,
+        Cost = 4,
+        UIName = UI_Soprav_Predatore,
+        UIDescription = UI_Soprav_PredatoreDesc,
+        XPBoosts = Trapping=2;Sneak=1;PlantScavenging=1,
+    }
+
+    character_trait_definition Sopravvissuto:sanguepietra
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:sanguepietra,
+        Cost = 2,
+        UIName = UI_Soprav_SanguePietra,
+        UIDescription = UI_Soprav_SanguePietraDesc,
+    }
+
+    character_trait_definition Sopravvissuto:filosofo
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:filosofo,
+        Cost = 1,
+        UIName = UI_Soprav_Filosofo,
+        UIDescription = UI_Soprav_FilosofoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:pessimista,
+    }
+
+    /* =====================================================
+       TRATTI NEGATIVI
+       ===================================================== */
+
+    character_trait_definition Sopravvissuto:caffeinadip
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:caffeinadip,
+        Cost = -4,
+        UIName = UI_Soprav_CaffeinaDip,
+        UIDescription = UI_Soprav_CaffeinaDipDesc,
+    }
+
+    character_trait_definition Sopravvissuto:emofobico
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:emofobico,
+        Cost = -4,
+        UIName = UI_Soprav_Emofobico,
+        UIDescription = UI_Soprav_EmofobicoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:sanguefreddo,
+    }
+
+    character_trait_definition Sopravvissuto:diurno
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:diurno,
+        Cost = -2,
+        UIName = UI_Soprav_Diurno,
+        UIDescription = UI_Soprav_DiurnoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:nottambulo,
+    }
+
+    character_trait_definition Sopravvissuto:ottuso
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:ottuso,
+        Cost = -5,
+        UIName = UI_Soprav_Ottuso,
+        UIDescription = UI_Soprav_OttusoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:memoriaferro,
+    }
+
+    character_trait_definition Sopravvissuto:gracile
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:gracile,
+        Cost = -4,
+        UIName = UI_Soprav_Gracile,
+        UIDescription = UI_Soprav_GracileDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:adrenalina;Sopravvissuto:terminator,
+    }
+
+    character_trait_definition Sopravvissuto:ingordo
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:ingordo,
+        Cost = -2,
+        UIName = UI_Soprav_Ingordo,
+        UIDescription = UI_Soprav_IngordoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:cuococampo;Sopravvissuto:spartano,
+    }
+
+    character_trait_definition Sopravvissuto:alcolista
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:alcolista,
+        Cost = -5,
+        UIName = UI_Soprav_Alcolista,
+        UIDescription = UI_Soprav_AlcolistaDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:spartano,
+    }
+
+    character_trait_definition Sopravvissuto:manitremanti
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:manitremanti,
+        Cost = -4,
+        UIName = UI_Soprav_ManiTremanti,
+        UIDescription = UI_Soprav_ManiTremantiDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:exmilitare;Sopravvissuto:cecchinonat,
+    }
+
+    character_trait_definition Sopravvissuto:zoppo
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:zoppo,
+        Cost = -5,
+        UIName = UI_Soprav_Zoppo,
+        UIDescription = UI_Soprav_ZoppoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:terminator;Sopravvissuto:acrobata,
+    }
+
+    character_trait_definition Sopravvissuto:fobicodelbuio
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:fobicodelbuio,
+        Cost = -2,
+        UIName = UI_Soprav_FobicoDelBuio,
+        UIDescription = UI_Soprav_FobicoDelBuioDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:terrorenotte,
+    }
+
+    character_trait_definition Sopravvissuto:terrorenotte
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:terrorenotte,
+        Cost = -5,
+        UIName = UI_Soprav_TerroreNotte,
+        UIDescription = UI_Soprav_TerroreNotteDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:fobicodelbuio,
+    }
+
+    character_trait_definition Sopravvissuto:propensopanico
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:propensopanico,
+        Cost = -4,
+        UIName = UI_Soprav_PropensoPanico,
+        UIDescription = UI_Soprav_PropensoPanicoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:sanguefreddo,
+    }
+
+    character_trait_definition Sopravvissuto:stomdelicato
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:stomdelicato,
+        Cost = -2,
+        UIName = UI_Soprav_StomDelicato,
+        UIDescription = UI_Soprav_StomDelicatoDesc,
+    }
+
+    character_trait_definition Sopravvissuto:dipsonno
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:dipsonno,
+        Cost = -2,
+        UIName = UI_Soprav_DipSonno,
+        UIDescription = UI_Soprav_DipSonnoDesc,
+    }
+
+    character_trait_definition Sopravvissuto:malaticcio
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:malaticcio,
+        Cost = -4,
+        UIName = UI_Soprav_Malaticcio,
+        UIDescription = UI_Soprav_MalaticcioDesc,
+    }
+
+    character_trait_definition Sopravvissuto:pessimista
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:pessimista,
+        Cost = -1,
+        UIName = UI_Soprav_Pessimista,
+        UIDescription = UI_Soprav_PessimistaDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:filosofo,
+    }
+
+    character_trait_definition Sopravvissuto:claustrofobico
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:claustrofobico,
+        Cost = -2,
+        UIName = UI_Soprav_Claustrofobico,
+        UIDescription = UI_Soprav_ClaustrofobicoDesc,
+    }
+
+}
