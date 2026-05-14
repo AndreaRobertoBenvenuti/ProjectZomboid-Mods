@@ -1,7 +1,8 @@
 name=Peso Reale
 id=PesoReale
-description=Controllo completo sul peso degli oggetti: imposta un peso fisso per categoria (Armi, Munizioni, Vestiario, Cibo, Medicinali, Altro) oppure usa un moltiplicatore. Configurabile via sandbox settings. Build 42.
+description=Controllo peso oggetti per categoria con moltiplicatore o valore fisso. Configurabile via sandbox settings. Build 42.
 modversion=1.0
 pzversion=42
 url=
 author=
+tags=Items
