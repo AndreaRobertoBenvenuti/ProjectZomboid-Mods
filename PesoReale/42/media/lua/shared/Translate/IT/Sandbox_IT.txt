@@ -1,0 +1,39 @@
+Sandbox_IT = {
+    Sandbox_PesoReale = "Peso Reale",
+
+    -- === ARMI ===
+    Sandbox_PesoReale_WeaponMode         = "Armi: Modalità",
+    Sandbox_PesoReale_WeaponMode_tooltip  = "1 = Moltiplicatore: moltiplica il peso originale (es. 0.5 = metà peso).<br>2 = Valore Fisso: ogni arma pesa esattamente il valore impostato.",
+    Sandbox_PesoReale_WeaponValue         = "Armi: Valore",
+    Sandbox_PesoReale_WeaponValue_tooltip = "Valore moltiplicatore o peso fisso per tutte le armi.",
+
+    -- === MUNIZIONI ===
+    Sandbox_PesoReale_AmmoMode            = "Munizioni: Modalità",
+    Sandbox_PesoReale_AmmoMode_tooltip    = "1 = Moltiplicatore: moltiplica il peso originale.<br>2 = Valore Fisso: ogni munizione pesa esattamente il valore impostato.",
+    Sandbox_PesoReale_AmmoValue           = "Munizioni: Valore",
+    Sandbox_PesoReale_AmmoValue_tooltip   = "Valore moltiplicatore o peso fisso per tutte le munizioni.",
+
+    -- === VESTIARIO ===
+    Sandbox_PesoReale_ClothingMode            = "Vestiario: Modalità",
+    Sandbox_PesoReale_ClothingMode_tooltip    = "1 = Moltiplicatore: moltiplica il peso originale.<br>2 = Valore Fisso: ogni indumento pesa esattamente il valore impostato.",
+    Sandbox_PesoReale_ClothingValue           = "Vestiario: Valore",
+    Sandbox_PesoReale_ClothingValue_tooltip   = "Valore moltiplicatore o peso fisso per tutto il vestiario.",
+
+    -- === CIBO ===
+    Sandbox_PesoReale_FoodMode            = "Cibo: Modalità",
+    Sandbox_PesoReale_FoodMode_tooltip    = "1 = Moltiplicatore: moltiplica il peso originale.<br>2 = Valore Fisso: ogni alimento pesa esattamente il valore impostato.",
+    Sandbox_PesoReale_FoodValue           = "Cibo: Valore",
+    Sandbox_PesoReale_FoodValue_tooltip   = "Valore moltiplicatore o peso fisso per tutti gli alimenti.",
+
+    -- === MEDICINALI ===
+    Sandbox_PesoReale_MedicalMode            = "Medicinali: Modalità",
+    Sandbox_PesoReale_MedicalMode_tooltip    = "1 = Moltiplicatore: moltiplica il peso originale.<br>2 = Valore Fisso: ogni medicinale pesa esattamente il valore impostato.",
+    Sandbox_PesoReale_MedicalValue           = "Medicinali: Valore",
+    Sandbox_PesoReale_MedicalValue_tooltip   = "Valore moltiplicatore o peso fisso per tutti i medicinali.",
+
+    -- === ALTRO ===
+    Sandbox_PesoReale_MiscMode            = "Altro: Modalità",
+    Sandbox_PesoReale_MiscMode_tooltip    = "1 = Moltiplicatore: moltiplica il peso originale.<br>2 = Valore Fisso: ogni oggetto pesa esattamente il valore impostato.",
+    Sandbox_PesoReale_MiscValue           = "Altro: Valore",
+    Sandbox_PesoReale_MiscValue_tooltip   = "Valore moltiplicatore o peso fisso per tutti gli oggetti vari.",
+}

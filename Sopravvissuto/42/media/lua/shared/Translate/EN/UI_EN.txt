@@ -1,0 +1,105 @@
+UI_EN = {
+    -- ========== POSITIVE TRAITS ==========
+    UI_Soprav_Adrenalina         = "Adrenaline",
+    UI_Soprav_AdrenalinaDesc     = "The body responds under pressure.<br>When health drops below 35%:<br>• Fatigue -4% per hour",
+
+    UI_Soprav_Nottambulo         = "Night Owl",
+    UI_Soprav_NottambuloDesc     = "Thrives after dark.<br>Between 22:00 and 06:00:<br>• Fatigue -2.5% per hour<br>• Stress -2.5% per hour",
+
+    UI_Soprav_SangueFreddo       = "Cool Headed",
+    UI_Soprav_SangueFreddoDesc   = "Panic is not part of their vocabulary.<br>• Stress -3.5% per hour<br>• Panic -3.5% per hour<br>• Starts with zero stress and panic",
+
+    UI_Soprav_CuocoCampo         = "Field Cook",
+    UI_Soprav_CuocoCampoDesc     = "Knows how to get the most out of any food.<br>• Hunger -0.9% per hour",
+
+    UI_Soprav_MemoriaFerro       = "Iron Memory",
+    UI_Soprav_MemoriaFerroDesc   = "Learns quickly and never forgets.<br>• +1 Woodwork XP bonus<br>• +1 Mechanics XP bonus<br>• +1 Electricity XP bonus<br>• +1 Doctor XP bonus",
+
+    UI_Soprav_Tecnico            = "Technician",
+    UI_Soprav_TecnicoDesc        = "A natural handyman — always knows how to fix things.<br>• +1 Woodwork XP bonus<br>• +1 Mechanics XP bonus<br>• +1 Electricity XP bonus<br>• +1 Masonry XP bonus<br>• +1 Blacksmith XP bonus",
+
+    UI_Soprav_LamaNaturale       = "Natural Blade",
+    UI_Soprav_LamaNaturaleDesc   = "Natural instinct for bladed weapons.<br>• +2 Small Blade XP bonus<br>• +1 Long Blade XP bonus",
+
+    UI_Soprav_Terminator         = "Terminator",
+    UI_Soprav_TerminatorDesc     = "Never stops. When health drops below 35%:<br>• Panic reset to 0 every hour<br>• Fatigue -5% per hour",
+
+    UI_Soprav_Spartano           = "Spartan",
+    UI_Soprav_SpartanoDesc       = "Accustomed to hardship. Basic needs grow more slowly.<br>• Hunger -0.7% per hour<br>• Thirst -0.7% per hour",
+
+    UI_Soprav_Acrobata           = "Acrobat",
+    UI_Soprav_AcrobataDesc       = "The body knows how to move. Superior agility and speed.<br>• +2 Nimble XP bonus<br>• +1 Sprinting XP bonus",
+
+    UI_Soprav_ExMilitare         = "Ex-Military",
+    UI_Soprav_ExMilitareDesc     = "Complete military training. Skilled with weapons and physically prepared.<br>• +1 Aiming XP bonus<br>• +1 Reloading XP bonus<br>• +1 Sprinting XP bonus<br>• Starts with zero stress and panic",
+
+    UI_Soprav_CecchinoNat        = "Natural Sniper",
+    UI_Soprav_CecchinoNatDesc    = "Innate aim. Progresses rapidly with firearms.<br>• +3 Aiming XP bonus",
+
+    UI_Soprav_MeccanicoNato      = "Born Mechanic",
+    UI_Soprav_MeccanicoNatoDesc  = "Engines speak to them. Learns mechanics naturally.<br>• +3 Mechanics XP bonus",
+
+    UI_Soprav_CuocoProvetto      = "Skilled Cook",
+    UI_Soprav_CuocoProvettoDesc  = "Natural talent in the kitchen. Dishes are always just right.<br>• +3 Cooking XP bonus",
+
+    UI_Soprav_Predatore          = "Predator",
+    UI_Soprav_PredatoreDesc      = "Born to hunt. Trapping, foraging and stealth come naturally.<br>• +2 Trapping XP bonus<br>• +1 Sneaking XP bonus<br>• +1 Plant Scavenging XP bonus",
+
+    UI_Soprav_SanguePietra       = "Stone Blood",
+    UI_Soprav_SanguePietraDesc   = "Wounds close fast. Pain fades steadily over time.<br>When injured:<br>• Pain -1.5% per hour",
+
+    UI_Soprav_Filosofo           = "Philosopher",
+    UI_Soprav_FilosofoDesc       = "Inner peace is the source of strength.<br>• Unhappiness -1.8% per hour",
+
+    -- ========== NEGATIVE TRAITS ==========
+    UI_Soprav_CaffeinaDip        = "Caffeine Dependent",
+    UI_Soprav_CaffeinaDipDesc    = "Can't function without coffee.<br>After 4 hours without caffeine:<br>• Stress +4.5% per hour<br>• Fatigue +3.5% per hour",
+
+    UI_Soprav_Emofobico          = "Hemophobic",
+    UI_Soprav_EmofobicoDesc      = "Cannot stand the sight of blood.<br>While injured:<br>• Stress +5.5% per hour",
+
+    UI_Soprav_Diurno             = "Day Creature",
+    UI_Soprav_DiurnoDesc         = "Night hours wear them down.<br>Between 22:00 and 06:00:<br>• Fatigue +2.8% per hour<br>• Stress +1.8% per hour",
+
+    UI_Soprav_Ottuso             = "Slow Learner",
+    UI_Soprav_OttusoDesc         = "Struggles to acquire technical skills.<br>• -1 Woodwork XP bonus<br>• -1 Mechanics XP bonus<br>• -1 Electricity XP bonus<br>• -1 Doctor XP bonus",
+
+    UI_Soprav_Gracile            = "Frail",
+    UI_Soprav_GracileDesc        = "Slim build and poor endurance. Gets tired much faster.<br>• Fatigue +2.8% per hour<br>• Starts with extra fatigue (+10%)",
+
+    UI_Soprav_Ingordo            = "Gluttonous",
+    UI_Soprav_IngordoDesc        = "Insatiable metabolism. Always hungry.<br>• Hunger +1.4% per hour",
+
+    UI_Soprav_Alcolista          = "Alcoholic",
+    UI_Soprav_AlcolistaDesc      = "Can't stop drinking.<br>After 12h without alcohol:<br>• Pain +5% per hour<br>After 24h without alcohol:<br>• Pain +6% per hour<br>• Health -2% per hour",
+
+    UI_Soprav_ManiTremanti       = "Trembling Hands",
+    UI_Soprav_ManiTremantiDesc   = "Hands tremble constantly. Aiming is a serious challenge.<br>• -2 Aiming XP bonus<br>• -1 Reloading XP bonus",
+
+    UI_Soprav_Zoppo              = "Lame",
+    UI_Soprav_ZoppoDesc          = "An old leg wound never healed properly. Slow and clumsy.<br>• Starts with leg pain (+20%)",
+
+    UI_Soprav_FobicoDelBuio      = "Nyctophobic",
+    UI_Soprav_FobicoDelBuioDesc  = "Darkness makes them nervous.<br>At night, while awake:<br>• Stress +2.4% per hour<br>• Panic +1.2% per hour",
+
+    UI_Soprav_TerroreNotte       = "Night Terror",
+    UI_Soprav_TerroreNotteDesc   = "Darkness is paralyzing.<br>At night, while awake:<br>• Stress +6.5% per hour<br>• Panic +4% per hour<br>When panic exceeds 60%: 20% chance of full crisis",
+
+    UI_Soprav_PropensoPanico     = "Panic Prone",
+    UI_Soprav_PropensoPanicoDesc = "Calm is a luxury they can't afford.<br>When panic exceeds 50%:<br>• 15% chance of instant full panic every hour",
+
+    UI_Soprav_StomDelicato       = "Sensitive Stomach",
+    UI_Soprav_StomDelicatoDesc   = "Cannot tolerate rotten food.<br>• Eating rotten food causes immediate pain (+25%)",
+
+    UI_Soprav_DipSonno           = "Sleep Dependent",
+    UI_Soprav_DipSonnoDesc       = "Needs much more sleep than others. Fatigue accumulates quickly.<br>• Fatigue +1.8% per hour",
+
+    UI_Soprav_Malaticcio         = "Sickly",
+    UI_Soprav_MalaticcioDesc     = "The body is unreliable. Random bouts of sudden illness.<br>• 0.2% chance per hour of sudden pain (+20%)",
+
+    UI_Soprav_Pessimista         = "Pessimist",
+    UI_Soprav_PessimistaDesc     = "Always sees the worst. Boredom and unhappiness grow faster.<br>• Unhappiness +1.2% per hour<br>• Boredom +2.2% per hour",
+
+    UI_Soprav_Claustrofobico     = "Claustrophobic",
+    UI_Soprav_ClaustrofobicoDesc = "Enclosed spaces are suffocating.<br>• Stress +2.8% per hour",
+}

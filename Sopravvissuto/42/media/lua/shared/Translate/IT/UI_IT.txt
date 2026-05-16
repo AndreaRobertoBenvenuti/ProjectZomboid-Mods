@@ -1,102 +1,105 @@
 UI_IT = {
     -- ========== TRATTI POSITIVI ==========
     UI_Soprav_Adrenalina         = "Adrenalina",
-    UI_Soprav_AdrenalinaDesc     = "Con la vita sotto il 35%, il corpo risponde: la fatica si accumula molto più lentamente.",
+    UI_Soprav_AdrenalinaDesc     = "Il corpo risponde sotto pressione.<br>Con vita sotto il 35%:<br>• Fatica -4% all'ora",
 
     UI_Soprav_Nottambulo         = "Nottambulo",
-    UI_Soprav_NottambuloDesc     = "Tra le 22:00 e le 06:00 accumula meno fatica e stress.",
+    UI_Soprav_NottambuloDesc     = "Rende al meglio nell'oscurità.<br>Tra le 22:00 e le 06:00:<br>• Fatica -2.5% all'ora<br>• Stress -2.5% all'ora",
 
     UI_Soprav_SangueFreddo       = "Sangue Freddo",
-    UI_Soprav_SangueFreddoDesc   = "Il panico non fa parte del suo vocabolario. Stress e panico calano naturalmente ogni ora.",
+    UI_Soprav_SangueFreddoDesc   = "Il panico non fa parte del suo vocabolario.<br>• Stress -3.5% all'ora<br>• Panico -3.5% all'ora<br>• Inizia senza stress né panico",
 
     UI_Soprav_CuocoCampo         = "Cuoco di Campo",
-    UI_Soprav_CuocoCampoDesc     = "Sa trarre il massimo da qualsiasi cibo. Ha bisogno di mangiare meno spesso.",
+    UI_Soprav_CuocoCampoDesc     = "Sa trarre il massimo da qualsiasi cibo.<br>• Fame -0.9% all'ora",
 
     UI_Soprav_MemoriaFerro       = "Memoria di Ferro",
-    UI_Soprav_MemoriaFerroDesc   = "Impara in fretta e non dimentica. Bonus alle competenze pratiche.",
+    UI_Soprav_MemoriaFerroDesc   = "Impara in fretta e non dimentica. Bonus alle competenze pratiche.<br>• +1 bonus XP Falegnameria<br>• +1 bonus XP Meccanica<br>• +1 bonus XP Elettronica<br>• +1 bonus XP Medicina",
+
+    UI_Soprav_Tecnico            = "Tecnico",
+    UI_Soprav_TecnicoDesc        = "Ha sempre saputo come si aggiusta una cosa. Pratico con ogni lavoro manuale.<br>• +1 bonus XP Falegnameria<br>• +1 bonus XP Meccanica<br>• +1 bonus XP Elettronica<br>• +1 bonus XP Muratura<br>• +1 bonus XP Fabbro",
 
     UI_Soprav_LamaNaturale       = "Lama Naturale",
-    UI_Soprav_LamaNaturaleDesc   = "Istinto naturale per le armi da taglio.",
+    UI_Soprav_LamaNaturaleDesc   = "Istinto naturale per le armi da taglio.<br>• +2 bonus XP Lama Corta<br>• +1 bonus XP Lama Lunga",
 
     UI_Soprav_Terminator         = "Terminator",
-    UI_Soprav_TerminatorDesc     = "Non si ferma mai. Con la vita sotto il 35%, ogni ora panico azzerato e fatica dimezzata.",
+    UI_Soprav_TerminatorDesc     = "Non si ferma mai. Con vita sotto il 35%:<br>• Panico azzera ogni ora<br>• Fatica -5% all'ora",
 
     UI_Soprav_Spartano           = "Spartano",
-    UI_Soprav_SpartanoDesc       = "Abituato alle privazioni. Fame e sete si accumulano il 30% più lentamente.",
+    UI_Soprav_SpartanoDesc       = "Abituato alle privazioni. I bisogni primari crescono più lentamente.<br>• Fame -0.7% all'ora<br>• Sete -0.7% all'ora",
 
     UI_Soprav_Acrobata           = "Acrobata",
-    UI_Soprav_AcrobataDesc       = "Il corpo sa come muoversi. Velocità e destrezza superiori.",
+    UI_Soprav_AcrobataDesc       = "Il corpo sa come muoversi. Velocità e destrezza superiori.<br>• +2 bonus XP Agilità<br>• +1 bonus XP Scatto",
 
     UI_Soprav_ExMilitare         = "Ex Militare",
-    UI_Soprav_ExMilitareDesc     = "Addestramento militare completo. Competente con le armi e fisicamente preparato. Inizia senza stress.",
+    UI_Soprav_ExMilitareDesc     = "Addestramento militare completo. Competente con le armi e fisicamente preparato.<br>• +1 bonus XP Mira<br>• +1 bonus XP Ricarica<br>• +1 bonus XP Scatto<br>• Inizia senza stress né panico",
 
     UI_Soprav_CecchinoNat        = "Cecchino Naturale",
-    UI_Soprav_CecchinoNatDesc    = "Mira innata. Progredisce rapidamente con le armi da fuoco.",
+    UI_Soprav_CecchinoNatDesc    = "Mira innata. Progredisce rapidamente con le armi da fuoco.<br>• +3 bonus XP Mira",
 
     UI_Soprav_MeccanicoNato      = "Meccanico Nato",
-    UI_Soprav_MeccanicoNatoDesc  = "I motori parlano con lui. Impara la meccanica in modo naturale.",
+    UI_Soprav_MeccanicoNatoDesc  = "I motori parlano con lui. Impara la meccanica in modo naturale.<br>• +3 bonus XP Meccanica",
 
     UI_Soprav_CuocoProvetto      = "Cuoco Provetto",
-    UI_Soprav_CuocoProvettoDesc  = "Talento naturale in cucina. I suoi piatti sono sempre al punto giusto.",
+    UI_Soprav_CuocoProvettoDesc  = "Talento naturale in cucina. I suoi piatti sono sempre al punto giusto.<br>• +3 bonus XP Cucina",
 
     UI_Soprav_Predatore          = "Predatore",
-    UI_Soprav_PredatoreDesc      = "Nato per cacciare. Trappole, raccolta e furtività vengono naturali.",
+    UI_Soprav_PredatoreDesc      = "Nato per cacciare. Trappole, raccolta e furtività vengono naturali.<br>• +2 bonus XP Trappole<br>• +1 bonus XP Furtività<br>• +1 bonus XP Raccolta Piante",
 
     UI_Soprav_SanguePietra       = "Sangue di Pietra",
-    UI_Soprav_SanguePietraDesc   = "Le ferite si chiudono in fretta. L'infezione avanza più lentamente.",
+    UI_Soprav_SanguePietraDesc   = "Le ferite si chiudono in fretta. Il dolore svanisce con il tempo.<br>Quando ferito:<br>• Dolore -1.5% all'ora",
 
     UI_Soprav_Filosofo           = "Filosofo",
-    UI_Soprav_FilosofoDesc       = "La pace interiore è la sua forza. L'infelicità svanisce nel tempo.",
+    UI_Soprav_FilosofoDesc       = "La pace interiore è la sua forza.<br>• Infelicità -1.8% all'ora",
 
     -- ========== TRATTI NEGATIVI ==========
     UI_Soprav_CaffeinaDip        = "Caffeina Dipendente",
-    UI_Soprav_CaffeinaDipDesc    = "Senza la sua dose di caffè non funziona. Accumula stress e fatica extra ogni ora.",
+    UI_Soprav_CaffeinaDipDesc    = "Senza la sua dose di caffè non funziona.<br>Dopo 4 ore senza caffeina:<br>• Stress +4.5% all'ora<br>• Fatica +3.5% all'ora",
 
     UI_Soprav_Emofobico          = "Emofobico",
-    UI_Soprav_EmofobicoDesc      = "Non sopporta la vista del sangue. Ogni ferita causa stress crescente.",
+    UI_Soprav_EmofobicoDesc      = "Non sopporta la vista del sangue.<br>Quando ferito:<br>• Stress +5.5% all'ora",
 
     UI_Soprav_Diurno             = "Creatura Diurna",
-    UI_Soprav_DiurnoDesc         = "Le ore notturne lo logorano. Tra le 22:00 e le 06:00 accumula fatica e stress extra.",
+    UI_Soprav_DiurnoDesc         = "Le ore notturne lo logorano.<br>Tra le 22:00 e le 06:00:<br>• Fatica +2.8% all'ora<br>• Stress +1.8% all'ora",
 
     UI_Soprav_Ottuso             = "Ottuso",
-    UI_Soprav_OttusoDesc         = "Fatica ad acquisire nuove competenze tecniche.",
+    UI_Soprav_OttusoDesc         = "Fatica ad acquisire nuove competenze tecniche.<br>• -1 bonus XP Falegnameria<br>• -1 bonus XP Meccanica<br>• -1 bonus XP Elettronica<br>• -1 bonus XP Medicina",
 
     UI_Soprav_Gracile            = "Gracile",
-    UI_Soprav_GracileDesc        = "Fisico esile e poca resistenza. Si stanca molto più in fretta.",
+    UI_Soprav_GracileDesc        = "Fisico esile e poca resistenza. Si stanca molto più in fretta.<br>• Fatica +2.8% all'ora<br>• Inizia con fatica extra (+10%)",
 
     UI_Soprav_Ingordo            = "Ingordo",
-    UI_Soprav_IngordoDesc        = "Metabolismo insaziabile. Ha sempre fame e mangia molto più spesso.",
+    UI_Soprav_IngordoDesc        = "Metabolismo insaziabile. Ha sempre fame.<br>• Fame +1.4% all'ora",
 
     UI_Soprav_Alcolista          = "Alcolista",
-    UI_Soprav_AlcolistaDesc      = "Non riesce a smettere. Senza alcool per 12h: dolore crescente. Senza alcool per 24h: anche la salute ne risente.",
+    UI_Soprav_AlcolistaDesc      = "Non riesce a smettere di bere.<br>Dopo 12h senza alcol:<br>• Dolore +5% all'ora<br>Dopo 24h senza alcol:<br>• Dolore +6% all'ora<br>• Salute -2% all'ora",
 
     UI_Soprav_ManiTremanti       = "Mani Tremanti",
-    UI_Soprav_ManiTremantiDesc   = "Le mani tremano costantemente. Mirare è un'impresa.",
+    UI_Soprav_ManiTremantiDesc   = "Le mani tremano costantemente. Mirare è un'impresa.<br>• -2 bonus XP Mira<br>• -1 bonus XP Ricarica",
 
     UI_Soprav_Zoppo              = "Zoppo",
-    UI_Soprav_ZoppoDesc          = "Una vecchia ferita alla gamba non si è mai rimarginata bene. Lento e goffo in movimento.",
+    UI_Soprav_ZoppoDesc          = "Una vecchia ferita alla gamba non si è mai rimarginata bene. Lento e goffo in movimento.<br>• Inizia con dolore alla gamba (+20%)",
 
     UI_Soprav_FobicoDelBuio      = "Fobico del Buio",
-    UI_Soprav_FobicoDelBuioDesc  = "L'oscurità lo innervosisce. Di notte, quando è sveglio, stress e panico crescono lentamente.",
+    UI_Soprav_FobicoDelBuioDesc  = "L'oscurità lo innervosisce. Di notte, quando è sveglio:<br>• Stress +2.4% all'ora<br>• Panico +1.2% all'ora",
 
     UI_Soprav_TerroreNotte       = "Terrore Notturno",
-    UI_Soprav_TerroreNotteDesc   = "L'oscurità lo paralizza. Di notte, da sveglio, stress e panico esplodono. Con panico alto rischia una crisi totale.",
+    UI_Soprav_TerroreNotteDesc   = "L'oscurità lo paralizza. Di notte, da sveglio:<br>• Stress +6.5% all'ora<br>• Panico +4% all'ora<br>Con panico oltre il 60%: 20% di probabilità di crisi totale",
 
     UI_Soprav_PropensoPanico     = "Propenso al Panico",
-    UI_Soprav_PropensoPanicoDesc = "La calma è un lusso che non si può permettere. Con panico oltre il 50%, rischia una crisi improvvisa.",
+    UI_Soprav_PropensoPanicoDesc = "La calma è un lusso che non si può permettere.<br>Con panico oltre il 50%:<br>• 15% di probabilità di panico totale improvviso ogni ora",
 
     UI_Soprav_StomDelicato       = "Stomaco Delicato",
-    UI_Soprav_StomDelicatoDesc   = "Non sopporta il cibo andato a male. Mangiare cibo marcio causa dolore immediato.",
+    UI_Soprav_StomDelicatoDesc   = "Non sopporta il cibo andato a male.<br>• Mangiare cibo marcio causa dolore immediato (+25%)",
 
     UI_Soprav_DipSonno           = "Dipendente dal Sonno",
-    UI_Soprav_DipSonnoDesc       = "Ha bisogno di dormire molto più degli altri. La fatica si accumula rapidamente.",
+    UI_Soprav_DipSonnoDesc       = "Ha bisogno di dormire molto più degli altri. La fatica si accumula rapidamente.<br>• Fatica +1.8% all'ora",
 
     UI_Soprav_Malaticcio         = "Malaticcio",
-    UI_Soprav_MalaticcioDesc     = "Il corpo è una cartina tornasole. Ogni tanto, senza motivo, si sente male.",
+    UI_Soprav_MalaticcioDesc     = "Il corpo è inaffidabile. Malesseri improvvisi e casuali.<br>• 0.2% di probabilità ogni ora di dolore improvviso (+20%)",
 
     UI_Soprav_Pessimista         = "Pessimista",
-    UI_Soprav_PessimistaDesc     = "Vede sempre il lato peggiore delle cose. Noia e infelicità si accumulano più in fretta.",
+    UI_Soprav_PessimistaDesc     = "Vede sempre il lato peggiore delle cose. Noia e infelicità si accumulano più in fretta.<br>• Infelicità +1.2% all'ora<br>• Noia +2.2% all'ora",
 
     UI_Soprav_Claustrofobico     = "Claustrofobico",
-    UI_Soprav_ClaustrofobicoDesc = "Gli spazi chiusi lo soffocano. Lo stress si accumula costantemente.",
+    UI_Soprav_ClaustrofobicoDesc = "Gli spazi chiusi lo soffocano.<br>• Stress +2.8% all'ora",
 }

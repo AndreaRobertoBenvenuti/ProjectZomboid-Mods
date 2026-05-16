@@ -1,23 +1,20 @@
 VERSION = 1,
 
 -- ================================================================
--- Peso Reale - Sandbox Options
--- Per ogni categoria puoi scegliere due modalità:
---   Mode = 1 -> Moltiplicatore (es. 0.5 = metà del peso originale)
---   Mode = 2 -> Valore fisso    (es. 0.05 = ogni oggetto pesa 0.05)
+-- Peso Reale - Sandbox Options  (B42 format)
+-- Mode = 1 -> Multiplier  (e.g. 0.5 = half the original weight)
+-- Mode = 2 -> Fixed value (e.g. 0.05 = every item weighs exactly 0.05)
 -- ================================================================
 
--- === ARMI ===
+-- === ARMI / WEAPONS ===
 option PesoReale.WeaponMode
 {
-    type = enum,
-    numValues = 2,
+    type = integer,
+    min = 1,
+    max = 2,
     default = 1,
-    val1 = Moltiplicatore,
-    val2 = Valore Fisso,
-    name = UI_Sandbox_PesoReale_WeaponMode,
-    tooltip = UI_Sandbox_PesoReale_WeaponMode_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_WeaponMode,
 }
 
 option PesoReale.WeaponValue
@@ -26,22 +23,19 @@ option PesoReale.WeaponValue
     default = 1.0,
     min = 0.01,
     max = 20.0,
-    name = UI_Sandbox_PesoReale_WeaponValue,
-    tooltip = UI_Sandbox_PesoReale_WeaponValue_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_WeaponValue,
 }
 
--- === MUNIZIONI ===
+-- === MUNIZIONI / AMMO ===
 option PesoReale.AmmoMode
 {
-    type = enum,
-    numValues = 2,
+    type = integer,
+    min = 1,
+    max = 2,
     default = 1,
-    val1 = Moltiplicatore,
-    val2 = Valore Fisso,
-    name = UI_Sandbox_PesoReale_AmmoMode,
-    tooltip = UI_Sandbox_PesoReale_AmmoMode_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_AmmoMode,
 }
 
 option PesoReale.AmmoValue
@@ -50,22 +44,19 @@ option PesoReale.AmmoValue
     default = 1.0,
     min = 0.001,
     max = 5.0,
-    name = UI_Sandbox_PesoReale_AmmoValue,
-    tooltip = UI_Sandbox_PesoReale_AmmoValue_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_AmmoValue,
 }
 
--- === VESTIARIO ===
+-- === VESTIARIO / CLOTHING ===
 option PesoReale.ClothingMode
 {
-    type = enum,
-    numValues = 2,
+    type = integer,
+    min = 1,
+    max = 2,
     default = 1,
-    val1 = Moltiplicatore,
-    val2 = Valore Fisso,
-    name = UI_Sandbox_PesoReale_ClothingMode,
-    tooltip = UI_Sandbox_PesoReale_ClothingMode_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_ClothingMode,
 }
 
 option PesoReale.ClothingValue
@@ -74,22 +65,19 @@ option PesoReale.ClothingValue
     default = 1.0,
     min = 0.01,
     max = 10.0,
-    name = UI_Sandbox_PesoReale_ClothingValue,
-    tooltip = UI_Sandbox_PesoReale_ClothingValue_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_ClothingValue,
 }
 
--- === CIBO ===
+-- === CIBO / FOOD ===
 option PesoReale.FoodMode
 {
-    type = enum,
-    numValues = 2,
+    type = integer,
+    min = 1,
+    max = 2,
     default = 1,
-    val1 = Moltiplicatore,
-    val2 = Valore Fisso,
-    name = UI_Sandbox_PesoReale_FoodMode,
-    tooltip = UI_Sandbox_PesoReale_FoodMode_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_FoodMode,
 }
 
 option PesoReale.FoodValue
@@ -98,22 +86,19 @@ option PesoReale.FoodValue
     default = 1.0,
     min = 0.01,
     max = 10.0,
-    name = UI_Sandbox_PesoReale_FoodValue,
-    tooltip = UI_Sandbox_PesoReale_FoodValue_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_FoodValue,
 }
 
--- === MEDICINALI ===
+-- === MEDICINALI / MEDICAL ===
 option PesoReale.MedicalMode
 {
-    type = enum,
-    numValues = 2,
+    type = integer,
+    min = 1,
+    max = 2,
     default = 1,
-    val1 = Moltiplicatore,
-    val2 = Valore Fisso,
-    name = UI_Sandbox_PesoReale_MedicalMode,
-    tooltip = UI_Sandbox_PesoReale_MedicalMode_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_MedicalMode,
 }
 
 option PesoReale.MedicalValue
@@ -122,22 +107,19 @@ option PesoReale.MedicalValue
     default = 1.0,
     min = 0.001,
     max = 5.0,
-    name = UI_Sandbox_PesoReale_MedicalValue,
-    tooltip = UI_Sandbox_PesoReale_MedicalValue_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_MedicalValue,
 }
 
--- === ALTRO ===
+-- === ALTRO / MISC ===
 option PesoReale.MiscMode
 {
-    type = enum,
-    numValues = 2,
+    type = integer,
+    min = 1,
+    max = 2,
     default = 1,
-    val1 = Moltiplicatore,
-    val2 = Valore Fisso,
-    name = UI_Sandbox_PesoReale_MiscMode,
-    tooltip = UI_Sandbox_PesoReale_MiscMode_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_MiscMode,
 }
 
 option PesoReale.MiscValue
@@ -146,7 +128,6 @@ option PesoReale.MiscValue
     default = 1.0,
     min = 0.001,
     max = 10.0,
-    name = UI_Sandbox_PesoReale_MiscValue,
-    tooltip = UI_Sandbox_PesoReale_MiscValue_tt,
-    page = Peso Reale,
+    page = PesoReale,
+    translation = PesoReale_MiscValue,
 }

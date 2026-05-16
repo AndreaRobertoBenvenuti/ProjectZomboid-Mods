@@ -60,6 +60,18 @@ module Sopravvissuto {
         XPBoosts = Woodwork=1;Mechanics=1;Electricity=1;Doctor=1,
     }
 
+    character_trait_definition Sopravvissuto:tecnico
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Sopravvissuto:tecnico,
+        Cost = 6,
+        UIName = UI_Soprav_Tecnico,
+        UIDescription = UI_Soprav_TecnicoDesc,
+        MutuallyExclusiveTraits = Sopravvissuto:memoriaferro,
+        XPBoosts = Woodwork=1;Mechanics=1;Electricity=1;Masonry=1;Blacksmith=1,
+    }
+
     character_trait_definition Sopravvissuto:lamanaturale
     {
         IsProfessionTrait = false,
@@ -228,6 +240,7 @@ module Sopravvissuto {
         UIName = UI_Soprav_Ottuso,
         UIDescription = UI_Soprav_OttusoDesc,
         MutuallyExclusiveTraits = Sopravvissuto:memoriaferro,
+        XPBoosts = Woodwork=-1;Mechanics=-1;Electricity=-1;Doctor=-1,
     }
 
     character_trait_definition Sopravvissuto:gracile
@@ -272,6 +285,7 @@ module Sopravvissuto {
         UIName = UI_Soprav_ManiTremanti,
         UIDescription = UI_Soprav_ManiTremantiDesc,
         MutuallyExclusiveTraits = Sopravvissuto:exmilitare;Sopravvissuto:cecchinonat,
+        XPBoosts = Aiming=-2;Reloading=-1,
     }
 
     character_trait_definition Sopravvissuto:zoppo

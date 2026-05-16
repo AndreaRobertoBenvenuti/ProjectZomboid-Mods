@@ -1,0 +1,39 @@
+Sandbox_EN = {
+    Sandbox_PesoReale = "Peso Reale",
+
+    -- === WEAPONS ===
+    Sandbox_PesoReale_WeaponMode         = "Weapons: Mode",
+    Sandbox_PesoReale_WeaponMode_tooltip  = "1 = Multiplier: multiplies the original weight (e.g. 0.5 = half weight).<br>2 = Fixed: every weapon weighs exactly the value set below.",
+    Sandbox_PesoReale_WeaponValue         = "Weapons: Value",
+    Sandbox_PesoReale_WeaponValue_tooltip = "Multiplier value or fixed weight for all weapons.",
+
+    -- === AMMO ===
+    Sandbox_PesoReale_AmmoMode            = "Ammo: Mode",
+    Sandbox_PesoReale_AmmoMode_tooltip    = "1 = Multiplier: multiplies the original weight.<br>2 = Fixed: every ammo item weighs exactly the value set below.",
+    Sandbox_PesoReale_AmmoValue           = "Ammo: Value",
+    Sandbox_PesoReale_AmmoValue_tooltip   = "Multiplier value or fixed weight for all ammo.",
+
+    -- === CLOTHING ===
+    Sandbox_PesoReale_ClothingMode            = "Clothing: Mode",
+    Sandbox_PesoReale_ClothingMode_tooltip    = "1 = Multiplier: multiplies the original weight.<br>2 = Fixed: every clothing item weighs exactly the value set below.",
+    Sandbox_PesoReale_ClothingValue           = "Clothing: Value",
+    Sandbox_PesoReale_ClothingValue_tooltip   = "Multiplier value or fixed weight for all clothing.",
+
+    -- === FOOD ===
+    Sandbox_PesoReale_FoodMode            = "Food: Mode",
+    Sandbox_PesoReale_FoodMode_tooltip    = "1 = Multiplier: multiplies the original weight.<br>2 = Fixed: every food item weighs exactly the value set below.",
+    Sandbox_PesoReale_FoodValue           = "Food: Value",
+    Sandbox_PesoReale_FoodValue_tooltip   = "Multiplier value or fixed weight for all food.",
+
+    -- === MEDICAL ===
+    Sandbox_PesoReale_MedicalMode            = "Medical: Mode",
+    Sandbox_PesoReale_MedicalMode_tooltip    = "1 = Multiplier: multiplies the original weight.<br>2 = Fixed: every medical item weighs exactly the value set below.",
+    Sandbox_PesoReale_MedicalValue           = "Medical: Value",
+    Sandbox_PesoReale_MedicalValue_tooltip   = "Multiplier value or fixed weight for all medical items.",
+
+    -- === MISC ===
+    Sandbox_PesoReale_MiscMode            = "Misc: Mode",
+    Sandbox_PesoReale_MiscMode_tooltip    = "1 = Multiplier: multiplies the original weight.<br>2 = Fixed: every misc item weighs exactly the value set below.",
+    Sandbox_PesoReale_MiscValue           = "Misc: Value",
+    Sandbox_PesoReale_MiscValue_tooltip   = "Multiplier value or fixed weight for all miscellaneous items.",
+}

@@ -10,6 +10,7 @@ SopravvissutoTraits.nottambulo    = CharacterTrait.register("Sopravvissuto:notta
 SopravvissutoTraits.sanguefreddo  = CharacterTrait.register("Sopravvissuto:sanguefreddo")
 SopravvissutoTraits.cuococampo    = CharacterTrait.register("Sopravvissuto:cuococampo")
 SopravvissutoTraits.memoriaferro  = CharacterTrait.register("Sopravvissuto:memoriaferro")
+SopravvissutoTraits.tecnico       = CharacterTrait.register("Sopravvissuto:tecnico")
 SopravvissutoTraits.lamanaturale  = CharacterTrait.register("Sopravvissuto:lamanaturale")
 SopravvissutoTraits.terminator    = CharacterTrait.register("Sopravvissuto:terminator")
 SopravvissutoTraits.spartano      = CharacterTrait.register("Sopravvissuto:spartano")
